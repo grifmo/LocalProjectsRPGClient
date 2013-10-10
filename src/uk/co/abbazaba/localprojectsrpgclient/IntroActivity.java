@@ -7,6 +7,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
+// This class displays the intro view, waiting for the user to click start
 public class IntroActivity extends Activity {
 	private Button introStartButton;
 	

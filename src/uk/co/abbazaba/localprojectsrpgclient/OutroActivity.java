@@ -7,6 +7,8 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
+
+//This class handles the end activity, just telling the user that everything is finished.
 public class OutroActivity extends Activity {
 	private Button outroEndButton;
 	

@@ -12,6 +12,7 @@ import android.widget.BaseAdapter;
 import android.widget.Button;
 import android.widget.TextView;
 
+// This handles displaying the questions - animating to the next one when an answer is given.
 public class QuestionViewAdapter extends BaseAdapter {
 	
 	static class ViewHolder{

@@ -20,7 +20,7 @@ import android.widget.GridView;
 
 import com.kodart.httpzoid.*;
 
-
+// This is the main activity of the demo - that is where the actual questions will be asked and answered, and where connections to the API happen
 public class MainActivity extends Activity {
 	public static String HOST_NAME = "http://lprpgapi.herokuapp.com/";
 	public static String TOKEN_ENDPOINT = "tokens/";
@@ -39,7 +39,7 @@ public class MainActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_main_flip); //TODO create opening layout to start with.
+		setContentView(R.layout.activity_main_flip); 
 		init();
 		
 	}
