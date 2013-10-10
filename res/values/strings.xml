@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LocalProjectsRPGClient</string>
+    <string name="app_title">RPG Demo</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="welcome_text">Welcome to RPG</string>
+	<string name="question_dummy">Should we invest in more education?</string>
+	<string name="button_yes">yes</string>
+	<string name="button_no">no</string>
+	<string name="intro_header_text">Demo RPG Game</string>
+	<string name="intro_body_text">This is a simple demo of a simple android REST client in the form of a very basic RPG-type game. The user is posed with a series of yes/no questions that will affect the outcome of a series of tokens relating to the theme of the game. The questions and tokens can be edited through a separate admin interface hosted at http://lprpg.abbazzaba.eu</string>
+	<string name="question_title">Question #</string>
+	<string name="outro_header_text">That\'s all folks</string>
+	<string name="outro_body_text">Your final results are:</string>
+	
+</resources>

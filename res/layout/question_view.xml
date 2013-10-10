@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/question_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:textSize="@dimen/question_text_fontsize"
+        android:ems="10"
+        android:textColor="@color/question_text_color"
+        android:text="Question" >
+    </TextView>
+   <TextView
+        android:id="@+id/question_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/question_text_fontsize"
+        android:ems="10"
+        android:textColor="@color/question_text_color"
+        android:text="@string/welcome_text" >
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/question_yes_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_yes"
+            android:textColor="@color/question_btn_txtcolor"
+           	/>
+        
+        <Button
+            android:id="@+id/question_no_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_no"
+            android:textColor="@color/question_btn_txtcolor"
+            />
+
+</LinearLayout>
+</LinearLayout>

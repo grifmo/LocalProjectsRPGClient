@@ -1,0 +1,19 @@
+<resources>
+
+    <!--
+         Customize dimensions originally defined in res/values/dimens.xml (such as
+         screen margins) for sw720dp devices (e.g. 10" tablets) in landscape here.
+    -->
+    <dimen name="activity_horizontal_margin">128dp</dimen>
+    
+     <!-- Size of the token boxes -->
+    <dimen name="token_box_width">120dp</dimen>
+    <dimen name="token_box_height">120dp</dimen>
+    <dimen name="token_shortcode_fontsize">24dp</dimen>
+    <dimen name="token_grid_column_width">130dp</dimen>
+    <dimen name="question_text_fontsize">28dp</dimen>
+    
+    <dimen name="intro_header_fontsize">26dp</dimen>
+    <dimen name="intro_body_fontsize">18dp</dimen>
+
+</resources>
